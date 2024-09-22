@@ -40,8 +40,6 @@ The **Product Rebalancing Management System** is a web-based application designe
    - Open the `src/main/resources/application.properties` file.
    - Update the following properties:
      ```properties
-     spring.application.name=ProductRebalancing
-     server.port=2003
      spring.datasource.url=jdbc:mysql://localhost:3306/productrebalancing?createDatabaseIfNotExist=true
      spring.datasource.username=user-id
      spring.datasource.password=your-password
